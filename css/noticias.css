@@ -31,3 +31,40 @@
     font-size: 3em;
     /*font-family: cursive;*/
 }
+
+
+@media only screen and (max-width: 720px) {
+
+    
+    .menu nav ul {
+        
+    }
+    
+    .grid-container {
+        margin-top:600px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 10px;
+    }
+.area1 h1{
+    font-size: 1em;
+    /*font-family: cursive;*/
+}
+.area1 img
+{
+    float: left;
+    margin-right:5em;
+    width: 75%;
+    height: 75%
+}
+    .area1{
+         grid-column: span 1;
+    }
+    
+    .area1 ,.area2, .area3, .area4 {
+        /*background-color:#e6ade2;*/
+        padding: 10px;
+    }
+
+}
