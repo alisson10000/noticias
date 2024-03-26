@@ -2,7 +2,7 @@
     background-color: #0c3589;
     padding-top: 15px;
     padding-bottom: 17px;
-   
+
 
 }
 .menu nav ul li{
@@ -12,20 +12,35 @@
     padding-bottom: 17px;
     margin-left: 5px;
     transition: all ease 1s;
- }
+}
 .menu nav ul li a{
     text-decoration: none;
     color: white;
     list-style: none;
     text-transform: capitalize;
- }
- .menu nav ul li:hover{
-     background-color: #6c97f1;
-     
- }
- .menu nav ul li:first-child {
-     border-radius: 5px 0px 0px 5px;
- }
- .menu nav ul li:last-child {
-     border-radius: 0px 5px 5px 0px;
- }
+}
+.menu nav ul li:hover{
+    background-color: #6c97f1;
+
+}
+.menu nav ul li:first-child {
+    border-radius: 5px 0px 0px 5px;
+}
+.menu nav ul li:last-child {
+    border-radius: 0px 5px 5px 0px;
+}
+
+@media only screen and (max-width: 720px) {
+
+    .menu nav ul li{
+
+        display: block;
+       
+    }
+    .menu{
+        height: 15px;
+    }
+    
+    
+
+}
