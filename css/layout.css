@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, sans-serif;
+}
+.containerGlobal{
+    border: 1px solid red;
+    width: 100%;
+    height: 800px;
+}
+.top{
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 200px;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+
+    background-color: #e15303;
+}
+.menu{
+    /*border: 1px solid green;*/
+    width: 100%;
+    height: 50px;
+
+}
+.containerCentral{
+    border: 1px solid green;
+    width: 100%;
+    height:640px;
+}
+.footer{
+    border: 1px solid green;
+    width: 100%;
+    height:40px;
+}
