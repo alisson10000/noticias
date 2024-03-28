@@ -38,38 +38,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
             <div class="containerCentral"><!--<!-- Inicio -->
 
 
-                <div class="grid-container">
-
-                    <div class="area1">
-                        <section>
-                            <article class="class">
-                                <img src="img/brasilsub17.avif">
-                                <header><h1>Vitória no jogo da selecão feminia</h1></header>
-                            </article>
-                        </section>
-                        
-                    </div>
-                    <div class="area2"> <section>
-                            <article class="class">
-                                <img src="img/ciencia.jpg">
-                                <header><h1>Vitória no jogo da selecão feminia</h1></header>
-                            </article>
-                        </section></div>
-                    <div class="area3"> <section>
-                            <article class="class">
-                                <img src="img/kraven-o-cacador.jpg">
-                                <header><h1>Vitória no jogo da selecão feminia</h1></header>
-                            </article>
-                        </section></div>
-                    <div class="area4"> <section>
-                            <article class="class">
-                                <img src="img/politica.jpeg">
-                                <header><h1>Vitória no jogo da selecão feminia</h1></header>
-                            </article>
-                        </section></div>
-
-                </div>
-
 
 
             </div><!--<!-- fim -->
