@@ -37,6 +37,21 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
             </div>
             <div class="containerCentral"><!--<!-- Inicio -->
 
+ <div class="grid-container-paginas">
+
+                    <div class="area1-pagina">
+foto
+                    </div>
+
+                    <div class="area2-pagina">
+texto
+                    </div>
+                    <div class="area3-pagina">
+comentario
+                    </div>
+
+                </div>
+
 
 
 
