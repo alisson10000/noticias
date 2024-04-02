@@ -10,6 +10,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         <meta name="robots" content="index, follow"/>
         <meta name="description" content="Aqui é o melhor portal para notícias." />
         <meta name="keywords" content="esport, ciência, política"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>projeto</title>
         <style>
             @import "css/raiz.css";

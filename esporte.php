@@ -10,10 +10,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         <meta name="robots" content="index, follow"/>
         <meta name="description" content="Aqui é o melhor portal para notícias." />
         <meta name="keywords" content="esport, ciência, política"/>
+        <meta name="viewport" 
+         content="width=device-width, initial-scale=1.0"/>
         <title>projeto</title>
         <style>
             @import "css/raiz.css";
         </style>
+        <script src="js/funcoes.js" ></script>
     </head>
     <body>
 
@@ -45,6 +48,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
                     <div class="area2-pagina">
                         <section>
                             <article>
+                           
                                 <h1>Brasil em Chamas: A Ascensão Triunfante do Futebol Feminino</h1>
 
                                 <p>Nas páginas douradas da história esportiva do Brasil, um novo capítulo resplandece com o brilho do talento, da resiliência e da determinação. O palco foi o campo verde, o cenário foi a arena global, e as protagonistas foram as valentes e destemidas jogadoras da Seleção Brasileira de Futebol Feminino. Em um espetáculo de coragem e maestria, elas ergueram o troféu da vitória, selando um triunfo histórico que ecoará pelos tempos.
@@ -69,12 +73,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
                             <article>
                                 <header><h1>Deixe aqui o seu comentário</h1></header>
                                 
-                                <form action="" method="post" >
+                                <form name="frmComentario" id="frmComentario" action="" method="post" >
                                     <label for="comentario">
                                         <span>Comente</span>
                                     </label>
                                     <input placeholder="Escreva aqui o seu comentário" type="text" name="comentario" id="comentario" ><!-- comment -->
-                                    <button type="button" onclick="">comentar</button>
+                                    <div id="mensagem"></div>
+                                    <button type="button" onclick="validaComentario()">
+                                        comentar</button>
                                     
                                     
                                 </form>
